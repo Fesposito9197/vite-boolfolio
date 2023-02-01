@@ -11,9 +11,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-h1 {
-  @include media-breakpoint-up(md) {
-    color: green;
-  }
-}
+
 </style>
