@@ -1,12 +1,14 @@
 <script>
+import ListProject from "./ListProject.vue";
 export default {
   name: "AppMain",
+  components: { ListProject },
 };
 </script>
 
 <template>
   <main>
-    <h1>Main</h1>
+    <ListProject />
   </main>
 </template>
 
