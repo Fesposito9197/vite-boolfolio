@@ -11,6 +11,11 @@
       <p class="card-text">
         {{ truncateText(data.description) }}
       </p>
+      <router-link
+        :to="{ name: 'single-project', params: { slug: data.slug } }"
+        class="btn btn-primary"
+        >Maggiori info</router-link
+      >
       <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
     </div>
   </div>
