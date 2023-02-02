@@ -1,11 +1,11 @@
+<template>
+  <h1>Contattaci</h1>
+</template>
+
 <script>
 export default {
-  name: "AppFooter",
+  name: "ContactUs",
 };
 </script>
-
-<template>
-  <h1>Footer</h1>
-</template>
 
 <style lang="scss" scoped></style>

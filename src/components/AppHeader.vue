@@ -4,7 +4,7 @@ export default {
 };
 </script>
 <template>
-  <header></header>
+  <h1>Header</h1>
 </template>
 
 <style lang="scss" scoped></style>

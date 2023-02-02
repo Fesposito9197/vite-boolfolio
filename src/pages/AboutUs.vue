@@ -1,11 +1,11 @@
+<template>
+  <h1>Chi siamo</h1>
+</template>
+
 <script>
 export default {
-  name: "AppFooter",
+  name: "AboutUs",
 };
 </script>
-
-<template>
-  <h1>Footer</h1>
-</template>
 
 <style lang="scss" scoped></style>
