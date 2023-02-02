@@ -1,10 +1,12 @@
 <template>
   <div>
     <h1>{{ project.title }}</h1>
-    <h3>Nome Cliente: {{ project.client_name }}</h3>
+    <h3>
+      Nome Cliente: <span>{{ project.client_name }}</span>
+    </h3>
     <p>Descrizione del progetto: {{ project.description }}</p>
 
-    <p>Tipologia di progetto:{{ project.type.name }}</p>
+    <p>Tipologia di progetto:{{ project.type?.name }}</p>
     <p>
       Linguaggi/o usato/i:
       <span
@@ -22,7 +24,7 @@ export default {
   name: "SingleProject",
   data() {
     return {
-      project: null,
+      project: [],
     };
   },
   created() {
