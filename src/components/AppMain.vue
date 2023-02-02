@@ -1,8 +1,6 @@
 <script>
-import ListProject from "./ListProject.vue";
 export default {
   name: "AppMain",
-  components: { ListProject },
 };
 </script>
 
