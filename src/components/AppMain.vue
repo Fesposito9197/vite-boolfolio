@@ -8,7 +8,7 @@ export default {
 
 <template>
   <main>
-    <ListProject />
+    <router-view></router-view>
   </main>
 </template>
 
