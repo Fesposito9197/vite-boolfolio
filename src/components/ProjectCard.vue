@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     truncateText(text) {
-      return text.substring(0, 250) + "...";
+      return text.substring(0, 220) + "...";
     },
   },
 };
